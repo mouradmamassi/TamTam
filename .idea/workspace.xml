@@ -140,6 +140,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mouradmamassi &lt;mourad.mamassi@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -428,12 +433,20 @@
       <workItem from="1487543578586" duration="2492000" />
       <workItem from="1487587900731" duration="1307000" />
       <workItem from="1487772528579" duration="11907000" />
-      <workItem from="1487802762018" duration="249000" />
+      <workItem from="1487802762018" duration="278000" />
     </task>
+    <task id="LOCAL-00001" summary="add page slides">
+      <created>1487803030685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487803030685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17931000" />
+    <option name="totallyTimeSpent" value="17960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
@@ -465,6 +478,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add page slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page slides" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

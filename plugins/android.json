@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        }
+    },
+    "dependent_plugins": {}
+}

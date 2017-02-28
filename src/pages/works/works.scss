@@ -1,8 +1,11 @@
 
 .tutorial-page {
-
+    background: #7fc41b;
+    //background: #008EB2;
+    color: #fff;
     .toolbar-background {
-        background: #fff;
+        //background: #fff;
+        background: #7fc41b;
         border-color: transparent;
     }
 
@@ -25,6 +28,7 @@
     }
 
     p {
+
         padding: 0 40px;
         font-size: 14px;
         line-height: 1.5;
@@ -35,4 +39,8 @@
         }
     }
 
+    .swiper-pagination-bullet-active
+    {
+        background: yellow ;
+    }
 }

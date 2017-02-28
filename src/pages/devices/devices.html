@@ -20,24 +20,48 @@
 <!--</ion-content>-->
 <ion-header>
     <ion-navbar>
-        <ion-title>Login</ion-title>
+        <ion-title>Bluetooth Connection</ion-title>
+        <ion-buttons end>
+            <button (click) = "startScanning()" ion-button>
+                <!--<ion-icon name="refresh-circle"></ion-icon>-->
+                <!--SCAN-->
+                <ion-icon name='refresh'  md="md-refresh"></ion-icon>
+
+            </button>
+        </ion-buttons>
     </ion-navbar>
+
 </ion-header>
 
-<ion-content>
-    <ion-list radio-group>
-        <ion-list-header>
-            Language
-        </ion-list-header>
 
-        <ion-item *ngFor="let number of [0,1,2,3,4]">
-            <ion-label>Go</ion-label>
-            <ion-radio checked="false" value="go"></ion-radio>
-        </ion-item>
-        <ion-item *ngFor="let device of list">
-            <ion-label>{{device.name}}</ion-label>
-            <ion-radio checked="true" value="go"></ion-radio>
-        </ion-item>
+<ion-content>
+
+    <!--<ion-list inset>-->
+        <!--<ion-list-header>-->
+            <!--Language-->
+        <!--</ion-list-header>-->
+
+        <!--<ion-item *ngFor="let number of [0,1,2,3,4]">-->
+            <!--<ion-label>Go</ion-label>-->
+            <!--<ion-radio checked="false" value="go"></ion-radio>-->
+        <!--</ion-item>-->
+        <!--<ion-item *ngFor="let device of devices">-->
+            <!--<ion-label>{{device.name}}</ion-label>-->
+            <!--<button ion-item (click) = "ConnectToDevice(device.id)">-->
+
+                <!--&lt;!&ndash;<p>{{device.rssi}}</p>&ndash;&gt;-->
+            <!--</button>-->
+        <!--</ion-item>-->
+
+        <ion-list>
+            <button ion-item *ngFor="let  device of devices" (click) = "ConnectToDevice(device.id)">
+                <h2>{{device.name}}</h2>
+                <p>{{device.id}}</p>
+            </button>
+        </ion-list>
+
+        <!--<ion-spinner *ngIf="isScanning==false"></ion-spinner>-->
+
 
 
         <!--<ion-item>-->
@@ -49,6 +73,8 @@
             <!--<ion-label>Python</ion-label>-->
             <!--<ion-radio value="python"></ion-radio>-->
         <!--</ion-item>-->
-    </ion-list>
+    <!--</ion-list>-->
+    <!--<ion-spinner *ngIf="isScanning == true"></ion-spinner>-->
+    <ion-grid>{{msg}}</ion-grid>
 <!--<ion-spinner *ngIf=”isScanning==true” name=”circles”></ion-spinner>-->
 </ion-content>

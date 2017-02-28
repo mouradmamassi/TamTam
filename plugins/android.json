@@ -7,7 +7,13 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-ble-central": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
         "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        },
+        "cordova-plugin-bluetoothle": {
             "PACKAGE_NAME": "com.ionicframework.tamtam191921"
         },
         "cordova-plugin-console": {
@@ -25,12 +31,16 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.tamtam191921"
         },
-        "ionic-plugin-keyboard": {
+        "cordova-plugin-x-toast": {
             "PACKAGE_NAME": "com.ionicframework.tamtam191921"
         },
-        "cordova-plugin-x-toast": {
+        "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.tamtam191921"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.tamtam191921"
+        }
+    }
 }

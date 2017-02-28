@@ -21273,15 +21273,38 @@ sub {
   }
 }
 
-.buttonconnect {
+.page-home {
+  background-color: #FF7B00;
   position: absolute;
-  display: block;
-  bottom: 0;
-  left: 35%;
+}
+
+.page-home .buttonconnect {
+  position: absolute;
+  bottom: 5px;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
+
+.page-home .startcenter {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+  top: 30%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
+
+.tutorial-page {
+  background: #7fc41b;
+  color: #fff;
 }
 
 .tutorial-page .toolbar-background {
-  background: #fff;
+  background: #7fc41b;
   border-color: transparent;
 }
 
@@ -21312,4 +21335,8 @@ sub {
 
 .tutorial-page p b {
   color: #000000;
+}
+
+.tutorial-page .swiper-pagination-bullet-active {
+  background: yellow;
 }

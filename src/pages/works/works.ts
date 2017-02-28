@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { BluetoothSerial } from 'ionic-native';
+// import { BLE } from 'ionic-native';
 
-import { NavController } from 'ionic-angular';
+import { NavController, AlertController } from 'ionic-angular';
 
 import { DevicesPage } from '../devices/devices';
+
 
 
 @Component({
@@ -12,24 +13,30 @@ import { DevicesPage } from '../devices/devices';
 })
 export class WorksPage {
 
-  constructor(public navCtrl: NavController) {
-    
+
+  constructor(public navCtrl: NavController, private alertCtrl: AlertController) {
+    this.alertCtrl = alertCtrl;
   }
   slides = [
     {
-      title: "Welcome to the Docs!",
-      description: "The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.",
-      image: "assets/img/ica-slidebox-img-1.png",
+      title: "Bienvenue sur TAMTAM!",
+      description: "Le nouvel outil créatif connecté pour jouer ensemble.",
+      image: "assets/img/page1.png",
     },
     {
       title: "What is Ionic?",
       description: "<b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.",
-      image: "assets/img/ica-slidebox-img-2.png",
+      image: "assets/img/poser_un_palet.gif",
     },
     {
       title: "What is Ionic Cloud?",
       description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
-      image: "assets/img/ica-slidebox-img-3.png",
+      image: "assets/img/controler.gif",
+    },
+    {
+      title: "What is Ionic Cloud?",
+      description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
+      image: "assets/img/composer.gif",
     }
   ];
   public  devices;
@@ -46,18 +53,27 @@ export class WorksPage {
     // );
     // BluetoothSerial.showBluetoothSettings();
     // BluetoothSerial.enable();
-    BluetoothSerial.list();
-    this.devices = BluetoothSerial.list();
-    this.devices.then(function(device){
-      this.list.push(device)
+    // BluetoothSerial.list();
+    // this.devices = BluetoothSerial.list();
+    // this.devices.then(function(device){
+    //   this.list.push(device)
+    // });
+    var alert = this.alertCtrl.create({
+      title: 'Bluetooth',
+      subTitle: 'You must Enable Your Bluetooth',
+      buttons: ['OK']
     });
-    this.navCtrl.push(DevicesPage,{
-      'list' : this.list
-    });
+    alert.present();
+    this.navCtrl.push(DevicesPage);
     //console.log(BluetoothSerial.list());
 
 
 
+
+  }
+
+  slideend(slide, index) {
+    slide.slideTo(index, 500);
   }
 
 }

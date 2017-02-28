@@ -4,6 +4,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {WorksPage} from "../pages/works/works";
 import {DevicesPage} from "../pages/devices/devices";
+import {LaunchsPage} from "../pages/launchs/launchs";
+import {CollectionsPage} from "../pages/collections/collections";
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import {DevicesPage} from "../pages/devices/devices";
     MyApp,
     HomePage,
     WorksPage,
-    DevicesPage
+    DevicesPage,
+    LaunchsPage,
+    CollectionsPage,
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -21,7 +25,9 @@ import {DevicesPage} from "../pages/devices/devices";
     MyApp,
     HomePage,
     WorksPage,
-    DevicesPage
+    DevicesPage,
+    LaunchsPage,
+    CollectionsPage,
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

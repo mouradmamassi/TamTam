@@ -21,21 +21,21 @@ export class WorksPage {
     {
       title: "Bienvenue sur TAMTAM!",
       description: "Le nouvel outil créatif connecté pour jouer ensemble.",
-      image: "assets/img/page1.png",
+      image: "assets/img/bienvenue.jpg",
     },
     {
-      title: "What is Ionic?",
-      description: "<b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.",
+      title: "",
+      description: "Poser un Palet",
       image: "assets/img/poser_un_palet.gif",
     },
     {
-      title: "What is Ionic Cloud?",
-      description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
+      title: "Contrôler",
+      description: "",
       image: "assets/img/controler.gif",
     },
     {
-      title: "What is Ionic Cloud?",
-      description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
+      title: "Composer",
+      description: "",
       image: "assets/img/composer.gif",
     }
   ];

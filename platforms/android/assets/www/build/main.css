@@ -21299,12 +21299,12 @@ sub {
 }
 
 .tutorial-page {
-  background: #7fc41b;
+  background: #7FC41B;
   color: #fff;
 }
 
 .tutorial-page .toolbar-background {
-  background: #7fc41b;
+  background: #7FC41B;
   border-color: transparent;
 }
 
@@ -21317,8 +21317,6 @@ sub {
 }
 
 .tutorial-page .slide-image {
-  max-height: 50%;
-  max-width: 60%;
   margin: 18px 0;
 }
 

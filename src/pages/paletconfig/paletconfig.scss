@@ -4,11 +4,22 @@
   top: 4rem;
   .paletimage{
 
-    background-color: #0c60ee;
+    background-color: #ff8533;
     border-radius: 50%;
     border: none;
     margin: auto;
     height: 10em;
     width: 10em;
+
+    .imgradius{
+      border-radius: 50%;
+      //padding: 0px;
+      //width: 3em;
+      //height: 3em;
+      background-color: #ff8533;
+      //width: 5em;
+      //border-radius: 50%;
+
+    }
   }
 }

@@ -14,7 +14,7 @@ export class PaletConfigPage {
 
     constructor(public navCtrl: NavController, public params: NavParams) {
     this.num  = this.params.get('Num');
-    this.path = "assets/img/palets/palet" + this.num + ".png";
+    this.path = "assets/img/palets/palet-" + this.num + ".png";
 
 
     }

@@ -26196,7 +26196,7 @@ sub {
   margin: 12px 12px;
 }
 
-.launchs .tamtamlaunchs .imgbuttonone {
+.launchs .tamtamlaunchs .imgradius {
   border-radius: 50%;
   background-color: #ff8533;
 }
@@ -26435,12 +26435,17 @@ sub {
 }
 
 .paletconfig .paletimage {
-  background-color: #0c60ee;
+  background-color: #ff8533;
   border-radius: 50%;
   border: none;
   margin: auto;
   height: 10em;
   width: 10em;
+}
+
+.paletconfig .paletimage .imgradius {
+  border-radius: 50%;
+  background-color: #ff8533;
 }
 
 .tutorial-page {

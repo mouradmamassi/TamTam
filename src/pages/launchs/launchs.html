@@ -1,5 +1,5 @@
 <ion-header >
-<ion-navbar hideBackButton>
+<ion-navbar hideBackButton color="orangecolornavBar">
     <button ion-button menuToggle  icon-only  >
         <ion-icon name='menu'></ion-icon>
     </button>
@@ -20,38 +20,155 @@
 
 <ion-menu [content]="content" persistent="true">
     <ion-header>
-        <ion-toolbar>
+        <ion-toolbar color="orangecolornavBar">
             <ion-title> Menu</ion-title>
         </ion-toolbar>
     </ion-header>
-    <ion-content>
+    <ion-content class="orangecolorcontent">
         <ion-list inset>
-            <button ion-item (click)="openPage(collection)">
+            <button ion-item (click)="openPage(collection)" class="orangecolorcontent">
               <ion-icon name="apps" item-right></ion-icon>
                 Collection
             </button>
-            <button ion-item (click)="openPage(signupPage)">
+            <button ion-item (click)="openPage(signupPage)" class="orangecolorcontent">
                 Paramétre
             </button>
-            <button ion-item (click)="openPage(signupPage)">
+            <button ion-item (click)="openPage(signupPage)" class="orangecolorcontent">
                 Communauté
             </button>
-            <button ion-item (click)="openPage(signupPage)">
+            <button ion-item (click)="openPage(signupPage)" class="orangecolorcontent">
                 A Propos
             </button>
         </ion-list>
     </ion-content>
 </ion-menu>
 
-<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
-<ion-content>
+<ion-nav id="nav"  #content [root]="rootPage"></ion-nav>
+<ion-content class="launchs">
+    <!--essayer de travaille avec les buttons en modefiant la forme comme cercle et aussi on le mettre dans un div sous forme d'une cercle ;)-->
+    <div class="tamtamlaunchs">
+        <!--<button ion-button class="roundbutton" (click)="GoToPaletPage()">-->
+            <!--&lt;!&ndash;<ion-img src="assets/img/palet-3.png"></ion-img>&ndash;&gt;-->
+        <!--</button>-->
+        <div class="roundclick1">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(1)" src="assets/img/palets/palet-1.png"></ion-img>
+            </a>
+        </div>
+        <div class="roundclick2">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick3">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick4">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick5">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick6">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick7">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(3)" src="assets/img/palets/palet-3.png"></ion-img>
+            </a>
+        </div>
+        <div class="roundclick8">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick9">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(4)" src="assets/img/palets/palet-4.png"></ion-img>
+            </a>
+        </div>
+
+        <div class="roundclick10">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick11">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(5)" src="assets/img/palets/palet-5.png"></ion-img>
+            </a>
+        </div>
+        <div class="roundclick12">
+            <a>
+            </a>
+        </div>
+
+
+
+        <div class="roundclick13">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(6)" src="assets/img/palets/palet-6.png"></ion-img>
+            </a>
+        </div>
+        <div class="roundclick14">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(7)" src="assets/img/palets/palet-7.png"></ion-img>
+            </a>
+        </div>
+        <div class="roundclick15">
+            <a>
+                <ion-img class="imgbuttonone" (click)="GoToPaletPage(8)" src="assets/img/palets/palet-8.png"></ion-img>
+            </a>
+        </div>
+
+        <div class="roundclick16">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick17">
+            <a>
+            </a>
+        </div>
+        <div class="roundclick18">
+            <a>
+            </a>
+        </div>
+
+        <div class="roundclick19">
+            <a>
+            </a>
+        </div>
+
+
+
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff3333">2</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #c61aff">3</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff4dff">4</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #66ffb3">5</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #3366ff">6</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #bf80ff">7</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #b3c6ff">8</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #ffffcc">9</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ffff66">10</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff80b3">11</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff0066">12</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #c2c2d6">13</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #9494b8">14</button>-->
+        <!--<button ion-button color="light" class="roundbutton" (click)="GoToPaletPage()" style="background: #ffcc99">15</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff4d94">16</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #ff3333">17</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #1aff1a">18</button>-->
+        <!--<button ion-button color="danger" class="roundbutton" (click)="GoToPaletPage()" style="background: #1aff8c">19</button>-->
+    </div>
+
     <ion-fab right bottom>
-        <button ion-fab color="light"><ion-icon name="share"></ion-icon></button>
+        <button ion-fab color="orangecolornavBar"><ion-icon name="share"></ion-icon></button>
         <ion-fab-list side="left">
-            <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
-            <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
-            <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
-            <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+            <button ion-fab color="orangecolornavBar"><ion-icon name="logo-facebook"></ion-icon></button>
+            <button ion-fab color="orangecolornavBar"><ion-icon name="logo-twitter"></ion-icon></button>
+            <button ion-fab color="orangecolornavBar"><ion-icon name="logo-vimeo"></ion-icon></button>
+            <button ion-fab color="orangecolornavBar"><ion-icon name="logo-googleplus"></ion-icon></button>
         </ion-fab-list>
     </ion-fab>
 </ion-content>

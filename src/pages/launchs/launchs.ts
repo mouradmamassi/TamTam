@@ -5,6 +5,7 @@ import { NavController, MenuController, ModalController } from 'ionic-angular';
 import {DevicesPage} from "../devices/devices";
 import {CollectionsPage} from "../collections/collections";
 import {TamtamPage} from "../Tamtam/Tamtam";
+import {PaletConfigPage} from "../paletconfig/paletconfig";
 
 
 @Component({
@@ -42,6 +43,9 @@ export class LaunchsPage {
     openPage(p) {
         // this.rootPage = p;
         this.navCtrl.push(this.collection);
+    }
+    GoToPaletPage(num){
+        this.navCtrl.push(PaletConfigPage, {"Num" : num});
     }
 }
 

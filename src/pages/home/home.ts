@@ -11,7 +11,7 @@ import {WorksPage} from "../works/works";
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    
+
   }
   gotoWorksPage(){
     this.navCtrl.push(WorksPage);

@@ -19,8 +19,8 @@
     <!--</ion-list>-->
 <!--</ion-content>-->
 <ion-header>
-    <ion-navbar>
-        <ion-title>Bluetooth Connection</ion-title>
+    <ion-navbar color="orangecolornavBar">
+        <ion-title>Connection Bluetooth</ion-title>
         <ion-buttons end>
             <button (click) = "startScanning()" ion-button>
                 <!--<ion-icon name="refresh-circle"></ion-icon>-->
@@ -34,7 +34,7 @@
 </ion-header>
 
 
-<ion-content>
+<ion-content class="orangecolorcontent">
 
     <!--<ion-list inset>-->
         <!--<ion-list-header>-->
@@ -53,8 +53,8 @@
             <!--</button>-->
         <!--</ion-item>-->
 
-        <ion-list>
-            <button ion-item *ngFor="let  device of devices" (click) = "ConnectToDevice(device.id)">
+        <ion-list >
+            <button ion-item *ngFor="let  device of devices" (click) = "ConnectToDevice(device.id)" class="orangecolorcontent">
                 <h2>{{device.name}}</h2>
                 <p>{{device.id}}</p>
             </button>

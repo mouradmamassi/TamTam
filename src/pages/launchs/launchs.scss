@@ -1,0 +1,294 @@
+.menucolor{
+  background-color: #ff8533;
+}
+.launchs{
+  margin: auto;
+  background-color: #ff8533;
+  .tamtamlaunchs{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    vertical-align: middle;
+    top: 4rem;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    background-color: #ff944d;
+    margin : auto;
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: none;
+
+    .roundbutton{
+      border: none;
+      border-radius: 50%;
+      position: relative;
+      font-weight: bold;
+      text-align: center;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+    }
+    .imgbuttonone{
+      border-radius: 50%;
+      //padding: 0px;
+      //width: 3em;
+      //height: 3em;
+      background-color: #ff8533;
+
+      //width: 5em;
+      //border-radius: 50%;
+
+    }
+    .roundclick1{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 7.5em;
+      top:-0.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick2{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 4em;
+      top:0.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick3{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 4em;
+      top:0.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick4{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 1.5em;
+      top: 3.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick5{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 0.1em;
+      top: 7em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick6{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 1.5em;
+      top: 3em;
+
+      background-color: #ff8533;
+      border-radius: 50%;
+    }
+
+    .roundclick7{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 0.8em;
+      top: 11em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+    .roundclick8{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 4em;
+      top: 14em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick9{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 7.5em;
+      top: 15.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+
+
+
+    .roundclick10{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 0.8em;
+      top: 11em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+    .roundclick11{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 4em;
+      top: 14em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick12{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 0.5em;
+      top: 7em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+
+
+    /* Quatre au milieux */
+
+
+    .roundclick13{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 4.5em;
+      top: 6em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+
+
+
+    .roundclick14{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      right: 4.5em;
+      top: 9.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+    .roundclick15{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 7.5em;
+      top: 12em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick16{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 4.5em;
+      top: 9.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick17{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 4.5em;
+      top: 6em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+    .roundclick18{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 7.5em;
+      top: 3em;
+      background-color: #ff8533;
+      border-radius: 50%;
+
+    }
+
+    /*une au milieux*/
+    .roundclick19{
+      border: none;
+      position: absolute;
+      width: 3em;
+      height: 3em;
+      margin: 12px 12px;
+      left: 7.5em;
+      top: 7.5em;
+      background-color: #ff8533;
+      border-radius: 50%;
+    }
+  }
+
+}

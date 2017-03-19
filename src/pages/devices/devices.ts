@@ -40,7 +40,7 @@ export class DevicesPage{
         // });
 
         var  deviceone = {
-            "name": "TI SensorTag",
+            "name": "TAMTAM",
             "id": "BD922605-1B07-4D55-8D09-B66653E51BBA",
             "rssi": -79,
 

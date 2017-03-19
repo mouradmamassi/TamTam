@@ -21,22 +21,22 @@ export class WorksPage {
     {
       title: "Bienvenue sur TAMTAM!",
       description: "Le nouvel outil créatif connecté pour jouer ensemble.",
-      image: "assets/img/bienvenue.jpg",
+      image: "assets/img/works/bienvenue.jpg",
     },
     {
       title: "",
       description: "Poser un Palet",
-      image: "assets/img/poser_un_palet.gif",
+      image: "assets/img/works/poser_un_palet.gif",
     },
     {
       title: "Contrôler",
       description: "",
-      image: "assets/img/controler.gif",
+      image: "assets/img/works/controler.gif",
     },
     {
       title: "Composer",
       description: "",
-      image: "assets/img/composer.gif",
+      image: "assets/img/works/composer.gif",
     }
   ];
   public  devices;
@@ -60,7 +60,7 @@ export class WorksPage {
     // });
     var alert = this.alertCtrl.create({
       title: 'Bluetooth',
-      subTitle: 'You must Enable Your Bluetooth',
+      subTitle: 'Activer le bluetouth',
       buttons: ['OK']
     });
     alert.present();
